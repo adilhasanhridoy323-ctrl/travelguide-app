@@ -1,1 +1,186 @@
 
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGuide.app - বিশ্বস্ত ও নিরাপদ ভ্রমণ গাইড</title>
+    <style>
+        :root {
+            --primary: #0284c7;
+            --secondary: #0f172a;
+            --accent: #f59e0b;
+            --danger: #dc2626;
+            --bg-light: #f8fafc;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--secondary);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #38bdf8;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 8px;
+            margin-bottom: 25px;
+            color: var(--secondary);
+        }
+        .country-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 35px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+        .country-header {
+            background: var(--primary);
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        .country-body {
+            padding: 25px;
+        }
+        .spot-box {
+            background: #f1f5f9;
+            border-left: 5px solid var(--primary);
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+        .spot-box h3 {
+            margin-top: 0;
+            color: #0369a1;
+        }
+        .safety-alert {
+            background: #fef2f2;
+            border-left: 5px solid var(--danger);
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+        .safety-alert h4 {
+            margin-top: 0;
+            color: var(--danger);
+        }
+        footer {
+            background: var(--secondary);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TravelGuide.app</h1>
+        <p>১০০% নির্ভুল, নিরাপদ ও দালালমুক্ত আন্তর্জাতিক ভ্রমণ গাইড</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">এশিয়ার সেরা ৩টি দেশের বিশ্বস্ত ট্রাভেল গাইড</h2>
+
+        <!-- ১. বাংলাদেশ -->
+        <div class="country-card">
+            <div class="country-header">🇧🇩 বাংলাদেশ: রূপসী বাংলার পসরা</div>
+            <div class="country-body">
+                <div class="spot-box">
+                    <h3>১. কক্সবাজার ও সেন্টমার্টিন</h3>
+                    <p><strong>যাওয়ার উপায়:</strong> ঢাকা থেকে বাস বা বিমানে সরাসরি কক্সবাজার। সেখান থেকে টেকনাফ হয়ে জাহাজে সেন্টমার্টিন।</p>
+                    <p><strong>নিরাপদ থাকা:</strong> কলাতলী বা সুগন্ধা বীচ রোডের নামী হোটেলগুলোতে থাকুন। লোকাল ভালো মানের রেস্তোরাঁয় (যেমন: পৌষি, ঝাউবন) খাবেন।</p>
+                </div>
+                <div class="spot-box">
+                    <h3>২. সাজেক ভ্যালি, খাগড়াছড়ি</h3>
+                    <p><strong>যাওয়ার উপায়:</strong> খাগড়াছড়ি বা দীঘিনালা থেকে চাঁদের গাড়ি (জিপ) রিজার্ভ করে সাজেক যাওয়া সবচেয়ে নিরাপদ।</p>
+                </div>
+                <div class="safety-alert">
+                    <h4>⚠️ জরুরি সতর্কতা ও স্ক্যাম এড়ান:</h4>
+                    <ul>
+                        <li>কক্সবাজারে অতিরিক্ত দালালের ফাঁদে পড়ে সস্তা ও নিম্নমানের হোটেল বুক করবেন না। সবসময় পরিচিত বা অনলাইনে বুকিং করা হোটেলে উঠুন।</li>
+                        <li>সেন্টমার্টিন যাওয়ার টিকেট সবসময় অফিশিয়াল কাউন্টার থেকে কাটবেন, কোনো অননুমোদিত এজেন্টের কাছ থেকে নয়।</li>
+                        <li>রাতেরবেলা সাজেকের অপরিচিত অন্ধকার রাস্তায় একা ঘোরাফেরা করা থেকে বিরত থাকুন।</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ২. ভারত -->
+        <div class="country-card">
+            <div class="country-header">🇮🇳 ভারত: বৈচিত্র্যময় ইতিহাস ও প্রকৃতি</div>
+            <div class="country-body">
+                <div class="spot-box">
+                    <h3>১. কাশ্মীর (শ्रीनगर, গুলমার্গ)</h3>
+                    <p><strong>যাওয়ার উপায়:</strong> শ্রীনগর এয়ারপোর্টে নেমে প্রিপেইড ট্যাক্সি বা বিশ্বস্ত ট্যুর এজেন্সির মাধ্যমে পাহালগাম বা গুলমার্গ যাওয়া নিরাপদ।</p>
+                </div>
+                <div class="spot-box">
+                    <h3>২. দার্জিলিং ও কালিম্পং</h3>
+                    <p><strong>যাওয়ার উপায়:</strong> শিলিগুড়ি বা নিউ জলপাইগুড়ি (NJP) থেকে শেয়ার জিপ বা প্রাইভেট কার নিয়ে দার্জিলিং পৌঁছানো যায়।</p>
+                </div>
+                <div class="safety-alert">
+                    <h4>⚠️ জরুরি সতর্কতা ও স্ক্যাম এড়ান:</h4>
+                    <ul>
+                        <li>কলকাতার নিউ মার্কেট বা পাহাড়ি এলাকার ট্যুরিস্ট স্পটগুলোতে পকেটমার ও চোর থেকে নিজের ব্যাগ ও মোবাইল সাবধানে রাখুন।</li>
+                        <li>কাশ্মীর বা দর্শনীয় স্থানগুলোতে অতিরিক্ত কম দামের অফার দেওয়া ভুয়া গাইড বা ট্রাভেল এজেন্টদের এড়িয়ে চলুন।</li>
+                        <li>টাকা ভাঙানোর সময় সবসময় অথরাইজড এক্সচেঞ্জ হাউস ব্যবহার করুন।</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ৩. থাইল্যান্ড -->
+        <div class="country-card">
+            <div class="country-header">🇹🇭 থাইল্যান্ড: সৈকত ও সংস্কৃতির স্বর্গরাজ্য</div>
+            <div class="country-body">
+                <div class="spot-box">
+                    <h3>১. ব্যাংকক ও পাতায়া</h3>
+                    <p><strong>যাওয়ার উপায়:</strong> ব্যাংকক সুਵর্ণভূমি বা ডন মুয়াং এয়ারপোর্টে নেমে মেট্রো বা ট্যাক্সি দিয়ে শহরে যাতায়াত করা অত্যন্ত সহজ।</p>
+                </div>
+                <div class="safety-alert">
+                    <h4>⚠️ জরুরি সতর্কতা ও স্ক্যাম এড়ান:</h4>
+                    <ul>
+                        <li>ব্যাংককের গ্র্যান্ড প্যালেস বা জনপ্রিয় ট্যুরিস্ট স্পটের বাইরে কিছু লোক বলতে পারে আজ জায়গাটি বন্ধ—এ ধরনের কথায় কান দেবেন না এবং স্ক্যামারদের এড়িয়ে চলুন।</li>
+                        <li>ট্যাক্সিতে ওঠার আগে অবশ্যই ড্রাইভারকে মিটার অন করতে বলবেন (By Meter), নতুবা বেশি ভাড়া আদায় করতে পারে।</li>
+                        <li>পাতায়ার ভিড়ভাট্টা পূর্ণ নাইটলাইফ এলাকায় নিজের পার্স ও মূল্যবান কাগজপত্র খুব সাবধানে রাখুন।</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 TravelGuide.app | আপনার বিশ্বস্ত ভ্রমণ সঙ্গী। সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+</body>
+</html>
